@@ -52,7 +52,7 @@ struct LoginView: View {
                     HStack {
                         Image(systemName: "key.fill")
                             .foregroundColor(.white)
-                        TextField("Password", text: $user)
+                        TextField("Password", text: $pass)
                             .foregroundColor(.white.opacity(0.8))
                     }
                     .underlineTextField()

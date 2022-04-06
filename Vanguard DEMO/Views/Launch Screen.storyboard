@@ -15,20 +15,8 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vanguardLogo2b" translatesAutoresizingMaskIntoConstraints="NO" id="Vox-Uf-5Rp">
-                                <rect key="frame" x="147" y="395" width="120" height="120"/>
-                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="small"/>
-                            </imageView>
-                        </subviews>
                         <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
                         <color key="backgroundColor" name="Red"/>
-                        <constraints>
-                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="bottom" secondItem="Vox-Uf-5Rp" secondAttribute="bottom" constant="347" id="0j9-js-YuE"/>
-                            <constraint firstItem="Vox-Uf-5Rp" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" constant="147" id="2Na-Fi-vdq"/>
-                            <constraint firstItem="Vox-Uf-5Rp" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Dc4-qI-2ce"/>
-                            <constraint firstItem="Vox-Uf-5Rp" firstAttribute="top" secondItem="Bcu-3y-fUS" secondAttribute="top" constant="351" id="RsS-9f-F6q"/>
-                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -37,7 +25,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="vanguardLogo2b" width="259" height="194"/>
         <namedColor name="Red">
             <color red="0.76078431372549016" green="0.019607843137254902" blue="0.16078431372549021" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>

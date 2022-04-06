@@ -49,7 +49,7 @@ struct ContentView: View {
                 .onAppear {
                     animate1 = false
                     animate2 = false
-                    DispatchQueue.main.asyncAfter(deadline: .now()+1) {
+                    DispatchQueue.main.asyncAfter(deadline: .now()+2) {
                         animate1 = true
                         DispatchQueue.main.asyncAfter(deadline: .now()+0.7) {
                             animate2 = true
